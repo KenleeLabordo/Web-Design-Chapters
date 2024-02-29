@@ -1,4 +1,4 @@
-
+/* Styling for the header */
 .myheader {
     background-color: rgb(39, 24, 82);
     color: whitesmoke;
@@ -6,12 +6,13 @@
     text-align: center;
 }
 
+/* Styling for the navigation bar */
 .menu {
     background-color: rgb(39, 24, 82);
     overflow: hidden;
-    
 }
 
+/* Styling for navigation bar links */
 .menu a {
     float: right;
     color: whitesmoke;
@@ -21,25 +22,30 @@
     font-size: 20px;
 }
 
+/* Hover effect on navigation bar links */
 .menu a:hover {
     background-color: rgb(70, 90, 118);
     color: white;
 }
 
+/* Styling for the active navigation bar link */
 .menu a.active {
     background-color: rgb(53, 40, 90);
     color: white;
 }
 
-.heading{
+/* Styling for headings */
+.heading {
     color: whitesmoke;
 }
 
+/* Styling for paragraphs */
 .paragraph {
     color: whitesmoke;
     justify-content: center;
 }
 
+/* Styling for links styled as buttons */
 .button-link {
     display: inline-block;
     padding: 10px 20px;
@@ -52,7 +58,7 @@
     cursor: pointer;
 }
 
+/* Hover effect on links styled as buttons */
 .button-link:hover {
     background-color: #3278e8;
 }
-
