@@ -1,0 +1,55 @@
+<!--
+Embed Video ☑️
+Embed a locally hosted video of your choice into a html document. The video must:
+
+Loop; |DONE|
+
+Display a relevant poster image; |DONE|
+
+Be centred on the page horizontally and vertically.|DONE|
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Exercise 5 Style.css" type="text/css">
+    <title>The Parcels: Live at The Colors</title>
+</head>
+
+<body bgcolor="#000000">
+
+    <!-- Header Section -->
+    <header class="myheader">
+        <!-- Display the main title of the page -->
+        <h1>The Parcels: Live at The Colors</h1>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <section class="poster-section">
+            <!-- Centered poster image -->
+            <figure>
+                <img src="C:\Users\Emelyn\Documents\ASSESSMENTS\L4 Sem 2\Web Design (Assessment 2)\Exercise 5\Parcels@Colors.jpg" 
+                    alt="Poster Image" title="The Parcels Live at The Colors" height="680" width="1200">
+            </figure>
+        </section>
+
+        <section class="video-section">
+            <!-- Centered video with controls, autoplay, and loop -->
+            <figure>
+                <video width="1080" height="720" controls autoplay loop>
+                    <source src="C:\Users\Emelyn\Documents\ASSESSMENTS\L4 Sem 2\Web Design (Assessment 2)\Exercise 5\Parcels - Lightenup _ A COLORS SHOW.mp4"
+                        type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </figure>
+        </section>
+    </main>
+
+</body>
+
+</html>

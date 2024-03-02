@@ -1,0 +1,8 @@
+/* Simple header format*/
+.myheader {
+    background-color: #93b0dd;
+    color: whitesmoke;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
