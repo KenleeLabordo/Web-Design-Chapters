@@ -1,0 +1,92 @@
+
+
+/* CSS styles */
+
+/* Define font */
+@font-face {
+    font-family: 'Tahoma'; /* Make sure to use the same font-family name as in your font-face declaration */
+    src: url('TAHOMA_0.TTF');
+}
+
+/* Styling for heading */
+h1 {
+    font-family: 'Tahoma', 'Segoe UI', Geneva, Verdana, sans-serif; /* Use the specified font-family */
+    text-align: center;
+    font-weight: 600;
+    color: white;
+}
+
+/* Rest of your CSS styles */
+
+
+/* Styling for body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 200;
+    margin-right: 200;
+}
+
+/* Styling for header */
+header {
+    background-color: rgb(23, 7, 43);
+    text-align: center;
+    padding: 10px;
+}
+
+/* Styling for navigation */
+nav {
+    background-color: rgb(23, 7, 43);
+    overflow: hidden;
+}
+
+/* Styling for navigation links */
+a {
+    color: white;
+    float: center;
+    text-align: center;
+    padding: 15px 18px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Styling for active link */
+a:active {
+    color: wheat;
+    background-color: rgb(50, 21, 86);
+}
+
+/* Styling for link hover */
+a:hover {
+    color: rgb(49, 30, 72);
+    background-color: rgb(213, 204, 210);
+}
+
+/* Styling for section */
+section {
+    text-align: left;
+    color: black;
+}
+
+/* Styling for spacing within article */
+.spacing {
+    margin-left: 50px;
+    margin-right: 20px;
+    max-width: 700px;
+}
+
+/* Styling for aside */
+aside {
+    background-color: rgb(23, 45, 103);
+    float: right;
+    text-align: left;
+    padding: 27px 70px;
+    color: white;
+}
+
+/* Styling for footer */
+footer {
+    background-color: rgb(140, 21, 233);
+    color: white;
+    text-align: center;
+    padding: 12px;
+}
